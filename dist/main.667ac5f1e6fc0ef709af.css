@@ -1,0 +1,6 @@
+*{font-family:"Roboto Condensed",sans-serif;box-sizing:border-box;margin:0;padding:0}
+.calcultor{padding:10px;width:450px;height:500px;background-color:#ffb273;margin:80px auto 0;border-radius:5px;box-shadow:0 14px 25px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.22)}@media(max-width: 500px){.calcultor{margin-top:40px;width:300px;height:400px}}
+.input-field{display:block;width:100%;padding:5px;font-size:40px;margin:auto 0;height:80px;text-align:right}@media(max-width: 500px){.input-field{height:60px;font-size:20px}}
+.clock-face{margin-top:30px;height:370px;display:grid;grid-template-columns:3fr 1fr;gap:10px}.clock-face-numbers{display:grid;grid-template-columns:repeat(3, 1fr);gap:5px}.clock-face-actions{display:grid;grid-template-columns:1fr;gap:5px}.clock-face__item{list-style-type:none;background-color:#fff;cursor:pointer;display:flex;justify-content:center;align-items:center;font-size:24px;transition:.2s all}.clock-face__item:hover{background-color:#d861c9;transition:.2s all}.clock-face__item_transparency{background-color:#ffb273;cursor:default}.clock-face__item_transparency:hover{background-color:#ffb273}@media(max-width: 500px){.clock-face{height:280px}.clock-face__item{font-size:18px}}
+
+/*# sourceMappingURL=main.667ac5f1e6fc0ef709af.css.map*/
