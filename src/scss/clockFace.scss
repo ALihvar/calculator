@@ -41,6 +41,13 @@
     .clock-face {
         height: 280px;
         &__item {
+            &:hover {
+                background-color: #fff;
+            }
+            &:active {
+                background-color: #D861C9;
+                transition: .2s all;
+            }
             font-size: 18px;
         }
     }
